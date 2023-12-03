@@ -1,0 +1,49 @@
+.double-table {
+    width: 49%;
+}
+
+@media only screen and (max-width: 992px) {
+    [class*="double-table"] {
+        width: 100%;
+    }
+}
+
+.md-w-50 {
+    width: 49%;
+}
+
+@media only screen and (max-width: 1200px) {
+    [class*="md-w-50"] {
+        width: 100%;
+    }
+}
+
+.dataTables_filter {
+    float: right;
+}
+.dt-button
+{
+    background: #49c1f8;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 1%;
+}
+.service:hover{
+    box-shadow:  2px 2px 10px  rgb(190, 190, 190) ;
+    transition: all .1s;
+
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .fa-rotate {
+    animation: rotate 2s linear infinite;
+  }
